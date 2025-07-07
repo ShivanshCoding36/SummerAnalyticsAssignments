@@ -89,7 +89,6 @@ This project simulates an intelligent **real-time dynamic pricing engine** for 1
 
 ## 🏗️ Architecture Diagram
 
-```mermaid
 flowchart TD
     A[CSV Parking Dataset] --> B[Pathway Streaming Engine]
     B --> C[Windowed Aggregation: Daily Metrics]
