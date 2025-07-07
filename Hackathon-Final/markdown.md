@@ -87,19 +87,6 @@ This project simulates an intelligent **real-time dynamic pricing engine** for 1
 
 ---
 
-## 🏗️ Architecture Diagram
-
-flowchart TD
-    A[CSV Parking Dataset] --> B[Pathway Streaming Engine]
-    B --> C[Windowed Aggregation: Daily Metrics]
-    C --> D1[Model 1: Linear]
-    C --> D2[Model 2: Demand-Based]
-    C --> D3[Model 3: Competitive]
-    D1 --> E[Price Output Stream]
-    D2 --> E
-    D3 --> E
-    E --> F[Live Dashboard using Bokeh]
-
     
 ## ✅ Summary
 
